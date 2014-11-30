@@ -5,6 +5,7 @@
 #include <string.h>
 #include "message.h"
 
+// an edit
 //TODO: should we malloc the data attribute at message->content.image.data
 Message messageImageCreate(int senderID, const unsigned char * const * image,
 		unsigned width, unsigned height) {
