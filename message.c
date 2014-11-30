@@ -7,6 +7,7 @@
 
 // an edit
 //TODO: should we malloc the data attribute at message->content.image.data
+// new edit from eclips
 Message messageImageCreate(int senderID, const unsigned char * const * image,
 		unsigned width, unsigned height) {
 
@@ -42,6 +43,13 @@ Message messageImageCreate(int senderID, const unsigned char * const * image,
 
 	return message;
 }
+
+/* new demo function
+MessageResult messageInvertColors(Message message) {
+	if (!message) {
+		return MESSAGE_NULL_ARGUMENT;
+	}
+*/
 
 MessageResult messageInvertColors(Message message) {
 	if (!message) {
