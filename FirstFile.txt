@@ -2,7 +2,7 @@
 
 #include <string.h>
 #include <stdlib.h>
-bool invertAndDoubleString(char* str, bool doubleIsInvert, char * out1,char * out2) {
+bool invertAndDoubleString(char* str, bool doubleIsInvert, char * out1,char * out2{
 	if (doubleIsInvert) {
 		out1 = malloc(strlen(str) * 2);
 		out2 = malloc(strlen(str));							
